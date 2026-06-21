@@ -121,7 +121,7 @@
   }
 
   /* ---- loan counter ----
-     Shows the static "21,000+" from the markup. Kiva retired its public v1
+     Shows the static "22,677" from the markup. Kiva retired its public v1
      lenders API, so there is no live feed to pull; update the number in
      index.html (#loanCounter) when the figure changes. */
 })();

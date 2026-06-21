@@ -120,7 +120,7 @@ em{font-style:italic}
 @keyframes heroZoom{from{transform:scale(1.12)}to{transform:scale(1)}}
 .hero__scrim{position:absolute;inset:0;background:
   linear-gradient(180deg,rgba(15,30,22,.55) 0%,rgba(15,30,22,.15) 30%,rgba(15,30,22,.35) 62%,rgba(12,24,18,.9) 100%);}
-.hero__content{padding-bottom:clamp(4rem,9vw,7.5rem);max-width:880px}
+.hero__content{padding-top:clamp(100px,14vh,150px);padding-bottom:clamp(4rem,9vw,7.5rem);max-width:880px}
 .eyebrow{font-weight:600;text-transform:uppercase;letter-spacing:.28em;font-size:.78rem;color:var(--gold-soft);margin-bottom:1.4rem}
 .hero__title{font-size:clamp(2.7rem,2rem + 6vw,6rem);font-weight:500;line-height:.98;text-shadow:0 2px 30px rgba(0,0,0,.35)}
 .hero__title em{color:var(--gold-soft)}
