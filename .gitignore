@@ -1,0 +1,19 @@
+# Azure / deploy secrets — never commit
+*.PublishSettings
+cambiumfoundation.PublishSettings
+
+# Local mirror + migration artifacts (not part of the published site)
+_site/
+_azuresite/
+wwwroot.zip
+ftp-download.ps1
+ftp-enumerate.ps1
+ftp-log.txt
+filelist.txt
+dirlist.txt
+brain-graph.html
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
